@@ -17,7 +17,6 @@ const ContactForm = () => {
                 <input type="text" name="name" placeholder="Enter first and last name" required/>
                 <input type="text" name="email" placeholder="Username or email" required />
                             <textarea className="textarea" type="text" name="message" placeholder="Leave us a message :)" required />
-                            <div data-netlify-recaptcha="true"></div>
                             <button className="contact-form-btn" type="submit">Submit</button>
                             
             
