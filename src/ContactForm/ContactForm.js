@@ -13,9 +13,9 @@ class ContactForm extends React.Component {
                 <div className="logo">
                     <img src="img/logo.png" alt="" />
                 </div>
-                <input type="text" placeholder="Enter first and last name" required/>
-                <input type="text" placeholder="Username or email" required />
-                <textarea className= "textarea" type="text" placeholder="Leave us a message :)" required/>
+                <input type="text" name="name" placeholder="Enter first and last name" required/>
+                <input type="text" name="email" placeholder="Username or email" required />
+                <textarea className= "textarea" type="text" name="message" placeholder="Leave us a message :)" required/>
                             <button className="contact-form-btn" type="submit">Submit</button>
                             <div data-netlify-recaptcha="true"></div>
                
