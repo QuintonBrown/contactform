@@ -9,7 +9,7 @@ class ContactForm extends React.Component {
             <div id="contact-wrapper">
                 <div className="contact-container">
         <div className="contact-form-data">
-            <form action="POST" data-netlify="true">
+            <form method="POST" data-netlify="true">
                 <div className="logo">
                     <img src="img/logo.png" alt="" />
                 </div>
