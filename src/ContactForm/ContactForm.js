@@ -2,14 +2,14 @@ import React from 'react';
 import './ContactForm.css'
 
 
-class ContactForm extends React.Component {
-    render() {
+const ContactForm = () => {
+ 
         return (
          
             <div id="contact-wrapper">
                 <div className="contact-container">
         <div className="contact-form-data">
-            <form method="POST" data-netlify="true">
+            <form name="contactform" method="POST" data-netlify="true">
                 <div className="logo">
                     <img src="img/logo.png" alt="" />
                 </div>
@@ -31,5 +31,5 @@ class ContactForm extends React.Component {
           
         )
     }
-}
+
 export default ContactForm
