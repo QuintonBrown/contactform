@@ -9,7 +9,7 @@ const ContactForm = () => {
             <div id="contact-wrapper">
                 <div className="contact-container">
         <div className="contact-form-data">
-            <form name="contactform" method="post" netlify>
+            <form name="contactform" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                 <div className="logo">
                     <img src="img/logo.png" alt="" />
                 </div>
